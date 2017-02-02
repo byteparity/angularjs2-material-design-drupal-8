@@ -1,0 +1,30 @@
+<div class="mdl-grid portfolio-max-width">
+    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card" *ngFor="let item of articles">
+        <div class="mdl-card__media">
+            <img class="article-image" src="{{item.image}}" border="0" alt="">
+        </div>
+
+        <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">{{item.title}}</h2>
+        </div>
+        <div class="mdl-card__supporting-text" [innerHTML]='item.body'>
+            
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+           
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" routerLink="/article/{{item.nid}}">Read more</a>
+        </div>
+    </div>
+</div>
+
+<footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">Demo: AngularJS 2 + Material Design + Drupal 8 (Design Credit: <a href="https://getmdl.io/templates/index.html" target="_blank">https://getmdl.io/templates/index.html</a>)</div>
+    </div>
+    <div class="mdl-mini-footer__right-section">
+        <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+        </ul>
+    </div>
+</footer>
