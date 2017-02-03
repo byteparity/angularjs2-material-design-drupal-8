@@ -1,9 +1,12 @@
 # AngularJS 2 + Material Design + Drupal 8 API
 
-Demo Website: http://angularjs2-demo.byteparity.com/
-Drupal Backend URL: http://dev-angularjs2-material-design-drupal-8.pantheonsite.io/
+Demo Website: [Demo Website](http://angularjs2-demo.byteparity.com/) 
+
+[Drupal Backend URL](http://dev-angularjs2-material-design-drupal-8.pantheonsite.io/)
 
 Articles and About Content is fetched from above Drupal URL via REST interface.
+
+[Material Design Template Credit](https://getmdl.io/templates/)
 
 # Setup
 
